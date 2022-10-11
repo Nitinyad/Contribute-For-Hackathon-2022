@@ -1,0 +1,44 @@
+#videos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.video-player {
+    background-color: black;
+    width: 100%;
+    height: 300px;
+}
+
+#user-2 {
+    display: none;
+}
+
+.control-container {
+    background-color: rgb(179, 102, 249, .9);
+    padding: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.control-container img{
+    height : 30px;
+    width : 30px;
+    margin: 10px;
+}
+
+#leave-btn{
+    background-color: rgba(255,80,80,1);
+
+}
+#controls{
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform:translateX(-50%);
+    display: flex;
+    gap: 1em;
+}
